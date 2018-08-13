@@ -4,7 +4,7 @@ require_once "INewsDB.class.php";
 
 class NewsDB implements INewsDB {
     //имя базы
-    const DB_NAME = "../news.db";
+    const DB_NAME = "news.db";
     //сама база, хранение экземпляра класса
     private $_db = null;
 
